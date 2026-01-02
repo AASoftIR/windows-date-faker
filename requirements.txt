@@ -1,0 +1,6 @@
+# Clocker - System Time & Date Faker
+# Requirements file
+
+customtkinter>=5.2.0
+tkcalendar>=1.6.1
+pyinstaller>=6.0.0

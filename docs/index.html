@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clocker - The Ultimate Windows Time Faker</title>
+    <meta name="description" content="A modern, elegant Windows utility for system time, date, and MAC address manipulation.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="galaxy-canvas"></canvas>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-clock"></i> Clocker
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+            <a href="https://github.com/AASoftIR/windows-date-faker" target="_blank" class="github-link">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="badge">v1.0.0 Released</div>
+                <h1 class="glitch" data-text="Master Time & Identity">Master Time & Identity</h1>
+                <p class="subtitle">The most elegant Windows utility for system time manipulation, MAC spoofing, and identity management.</p>
+                
+                <div class="cta-group">
+                    <a href="https://github.com/AASoftIR/windows-date-faker/releases/latest/download/Clocker.exe" class="btn btn-primary">
+                        <i class="fab fa-windows"></i> Download for Windows
+                    </a>
+                    <a href="https://github.com/AASoftIR/windows-date-faker" class="btn btn-secondary">
+                        <i class="fas fa-code"></i> View Source
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="app-window glass">
+                    <div class="window-header">
+                        <div class="dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="title">Clocker.exe</div>
+                    </div>
+                    <div class="window-content">
+                        <div class="mock-ui">
+                            <div class="sidebar">
+                                <div class="item active"><i class="fas fa-clock"></i></div>
+                                <div class="item"><i class="fas fa-laptop"></i></div>
+                                <div class="item"><i class="fas fa-globe"></i></div>
+                                <div class="item"><i class="fas fa-cog"></i></div>
+                            </div>
+                            <div class="main-view">
+                                <div class="time-display">12:45:30</div>
+                                <div class="date-display">January 2, 2026</div>
+                                <div class="controls">
+                                    <div class="control-bar"></div>
+                                    <div class="control-bar short"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Powerful Capabilities</h2>
+            <div class="feature-grid">
+                <div class="feature-card glass">
+                    <div class="icon-box gradient-1">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Time Manipulation</h3>
+                    <p>Change system date and time instantly. Use the visual calendar picker or quick presets for rapid testing.</p>
+                </div>
+
+                <div class="feature-card glass">
+                    <div class="icon-box gradient-2">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>MAC Spoofer</h3>
+                    <p>Generate random MAC addresses or set custom ones to bypass network restrictions and protect privacy.</p>
+                </div>
+
+                <div class="feature-card glass">
+                    <div class="icon-box gradient-3">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>System Identity</h3>
+                    <p>Modify your computer name and timezone on the fly. Complete system identity control in one app.</p>
+                </div>
+
+                <div class="feature-card glass">
+                    <div class="icon-box gradient-4">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Secure & Safe</h3>
+                    <p>Password protected by default. Includes "Sync with Internet" to instantly restore original settings.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download-section glass">
+            <div class="download-content">
+                <h2>Ready to take control?</h2>
+                <p>Download the standalone executable. No installation required.</p>
+                <div class="code-block">
+                    <code>password: kali2003</code>
+                    <button class="copy-btn" onclick="navigator.clipboard.writeText('kali2003')"><i class="fas fa-copy"></i></button>
+                </div>
+                <a href="https://github.com/AASoftIR/windows-date-faker/releases" class="btn btn-primary large">
+                    <i class="fas fa-download"></i> Get Clocker Now
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 AASoftIR. Open Source under MIT License.</p>
+            <div class="socials">
+                <a href="https://github.com/AASoftIR"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
